@@ -1,90 +1,45 @@
-<!DOCTYPE html>
-<html>
 <style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
-.header {
-  text-align: center;
-  padding: 32px;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
-
-@media (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-
-@media (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
+    section.grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-row: repeat(3, 1fr);
+        background-color: purple;
+        padding: 10px;
+    }
+    section div.grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 5px;
+        font-size: 1.2em;
+        text-align: center;
+    }
 </style>
-<body>
-
-
-<div class="row"> 
-  <img src="img_girl.jpg" alt="Girl in a jacket">
-  <img src="img_girl.jpg" alt="Girl in a jacket">
-<img src="img_girl.jpg" alt="Girl in a jacket">
-</div>
-
-  
-  <div class="column">
-    <img src="img_girl.jpg" alt="Girl in a jacket">
-    <img src="img_girl.jpg" alt="Girl in a jacket">
-    <img src="img_girl.jpg" alt="Girl in a jacket">
-  
-  </div>
-  
-  <div class="column">
-    <img src="img_girl.jpg" alt="Girl in a jacket">
-    <img src="img_girl.jpg" alt="Girl in a jacket">
-    <img src="img_girl.jpg" alt="Girl in a jacket">
- 
-  </div> 
-   
-  <div class="column">
-    <img src="img_girl.jpg" alt="Girl in a jacket">
-    <img src="img_girl.jpg" alt="Girl in a jacket">
-    <img src="img_girl.jpg" alt="Girl in a jacket">
-  </div>
-  
-  <div class="column">
-    <img src="img_girl.jpg" alt="Girl in a jacket">
-    <img src="img_girl.jpg" alt="Girl in a jacket">
-    <img src="img_girl.jpg" alt="Girl in a jacket">
-  </div>
-
-
-</body>
-</html>
+<section class="grid-container">
+    <div class="grid-item">
+        1
+    </div>
+    <div class="grid-item">
+        2
+    </div>
+    <div class="grid-item">
+        3
+    </div>
+    <div class="grid-item">
+        4
+    </div>
+    <div class="grid-item">
+        5
+    </div>
+    <div class="grid-item">
+        6
+    </div>
+    <div class="grid-item">
+        7
+    </div>
+    <div class="grid-item">
+        8
+    </div>
+    <div class="grid-item">
+        9
+    </div>
+</section>
