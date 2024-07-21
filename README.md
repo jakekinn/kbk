@@ -53,19 +53,37 @@ body {
 
 
 <div class="row"> 
-  <div class="column">
+  <img src="img_girl.jpg" alt="Girl in a jacket">
+  <img src="img_girl.jpg" alt="Girl in a jacket">
+<img src="img_girl.jpg" alt="Girl in a jacket">
+</div>
 
+  
+  <div class="column">
+    <img src="img_girl.jpg" alt="Girl in a jacket">
+    <img src="img_girl.jpg" alt="Girl in a jacket">
+    <img src="img_girl.jpg" alt="Girl in a jacket">
+  
   </div>
   
   <div class="column">
-
+    <img src="img_girl.jpg" alt="Girl in a jacket">
+    <img src="img_girl.jpg" alt="Girl in a jacket">
+    <img src="img_girl.jpg" alt="Girl in a jacket">
+ 
   </div> 
    
   <div class="column">
+    <img src="img_girl.jpg" alt="Girl in a jacket">
+    <img src="img_girl.jpg" alt="Girl in a jacket">
+    <img src="img_girl.jpg" alt="Girl in a jacket">
   </div>
   
   <div class="column">
- </div>
+    <img src="img_girl.jpg" alt="Girl in a jacket">
+    <img src="img_girl.jpg" alt="Girl in a jacket">
+    <img src="img_girl.jpg" alt="Girl in a jacket">
+  </div>
 
 
 </body>
