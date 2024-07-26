@@ -16,30 +16,29 @@
 </style>
 <section class="grid-container">
     <div class="grid-item">
-        1
+      <img src="puzzle2_M.jpg" alt="Image 1">
     </div>
     <div class="grid-item">
-        2
+      <img src="puzzle2_L.jpg" alt="Image 1">
     </div>
     <div class="grid-item">
-        3
+   <img src="puzzle2_K.jpg" alt="Image 1">
     </div>
     <div class="grid-item">
-        4
+     <img src="puzzle2_J.jpg" alt="Image 1">
     </div>
     <div class="grid-item">
-        5
+      <img src="puzzle2_I.jpg" alt="Image 1">    </div>
+    <div class="grid-item">
+    <img src="puzzle2_I.jpg" alt="Image 1">
     </div>
     <div class="grid-item">
-        6
+    <img src="puzzle2_F.jpg" alt="Image 1">
     </div>
     <div class="grid-item">
-        7
+  <img src="image1.jpg" alt="Image 1">
     </div>
     <div class="grid-item">
-        8
-    </div>
-    <div class="grid-item">
-        9
+   <img src="image1.jpg" alt="Image 1">
     </div>
 </section>
